@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f9ff;
+}
+
+.container{
+    text-align:center;
+    padding:50px 20px;
+}
+
+h1{
+    color:#0d47a1;
+    font-size:40px;
+}
+
+.tagline{
+    color:green;
+    font-size:20px;
+    font-weight:bold;
+}
+
+h2{
+    color:#222;
+}
+
+p{
+    font-size:18px;
+    color:#555;
+}
+
+button{
+    background:#2e7d32;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:30px;
+    font-size:18px;
+    margin-top:20px;
+}
