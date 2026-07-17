@@ -1,120 +1,97 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-
 body{
-background:#f4f8ff;
-color:#222;
-}
-
-nav{
-background:#0d47a1;
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:18px 30px;
-flex-wrap:wrap;
-}
-
-.logo{
-color:white;
-font-size:24px;
-font-weight:bold;
-}
-
-nav ul{
-display:flex;
-list-style:none;
-gap:20px;
-}
-
-nav ul li a{
-color:white;
-text-decoration:none;
-font-weight:bold;
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#eef5ff;
+    color:#333;
 }
 
 .hero{
-text-align:center;
-padding:70px 20px;
+    text-align:center;
+    padding:60px 20px;
 }
 
 .hero h1{
-font-size:40px;
-color:#0d47a1;
-margin-bottom:15px;
+    font-size:42px;
+    color:#0d47a1;
+    margin-bottom:15px;
 }
 
 .hero p{
-font-size:18px;
-color:#555;
-margin-bottom:20px;
+    font-size:22px;
+    color:#555;
+}
+
+.dashboard{
+    width:85%;
+    max-width:500px;
+    margin:20px auto;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+.dashboard h3{
+    margin:15px 0;
+}
+
+.progress{
+    width:100%;
+    height:18px;
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+    margin:15px 0;
+}
+
+.progress-fill{
+    width:20%;
+    height:100%;
+    background:#28a745;
 }
 
 button{
-background:#2e7d32;
-color:white;
-padding:14px 30px;
-border:none;
-border-radius:30px;
-font-size:18px;
-cursor:pointer;
+    margin-top:20px;
+    background:#28a745;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:40px;
+    cursor:pointer;
 }
 
 button:hover{
-background:#1b5e20;
+    background:#1f8c38;
 }
 
-.mission{
-background:white;
-margin:30px;
-padding:25px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
+.subjects{
+    width:90%;
+    max-width:600px;
+    margin:40px auto;
+    text-align:center;
 }
 
-.mission h2{
-color:#0d47a1;
-margin-bottom:15px;
+.subject-card{
+    background:white;
+    padding:18px;
+    margin:15px 0;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    font-size:20px;
+    font-weight:bold;
+    transition:0.3s;
 }
 
-.mission label{
-display:block;
-margin:12px 0;
-}
-
-.reward{
-margin-top:15px;
-font-weight:bold;
-color:#2e7d32;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
-padding:30px;
-}
-
-.card{
-background:white;
-padding:20px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
-}
-
-.card h2{
-color:#0d47a1;
-margin-bottom:10px;
+.subject-card:hover{
+    transform:scale(1.03);
 }
 
 footer{
-background:#0d47a1;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:30px;
+    margin-top:40px;
+    padding:20px;
+    text-align:center;
+    background:#0d47a1;
+    color:white;
 }
