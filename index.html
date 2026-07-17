@@ -1,73 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BTF LEARN</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTF LEARN</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<nav>
-<div class="logo">📚 BTF LEARN</div>
-
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">Subjects</a></li>
-<li><a href="#">Quiz</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
-</nav>
-
 <section class="hero">
-<h1>Learning Should Be Fun 🎮</h1>
-
-<p id="quote">
-Small steps every day lead to big success.
-</p>
-
-<button onclick="startLearning()">Start Learning</button>
+    <h1>👋 Welcome to BTF LEARN</h1>
+    <p>Learn smarter. Stay consistent. Become your best.</p>
 </section>
 
-<section class="mission">
-<h2>🎯 Today's Mission</h2>
+<div class="dashboard">
 
-<label><input type="checkbox"> Study one Biology topic</label>
+    <h3>⭐ XP: <span id="xp">0</span></h3>
 
-<label><input type="checkbox"> Solve 5 Mathematics questions</label>
+    <h3>🔥 Streak: 0 Days</h3>
 
-<label><input type="checkbox"> Learn 10 English words</label>
+    <h3>🎯 Goal: Study 30 Minutes</h3>
 
-<p class="reward">⭐ Reward: +100 XP</p>
-</section>
+    <h3>📈 Daily Progress</h3>
 
-<section class="cards">
+    <div class="progress">
+        <div class="progress-fill"></div>
+    </div>
 
-<div class="card">
-<h2>📚 Learn</h2>
-<p>Study WAEC, NECO, JAMB and Olympiad topics.</p>
+    <p>20% Completed</p>
+
+    <button onclick="startLearning()">Start Learning 🚀</button>
+
 </div>
 
-<div class="card">
-<h2>🎯 Daily Mission</h2>
-<p>Complete today's mission and build consistency.</p>
-</div>
+<section class="subjects">
 
-<div class="card">
-<h2>🏆 Earn XP</h2>
-<p>Earn experience points as you study.</p>
-</div>
+<h2>📚 Subjects</h2>
 
-<div class="card">
-<h2>🤖 AI Tutor</h2>
-<p>Coming soon...</p>
-</div>
+<div class="subject-card">🧮 Mathematics</div>
+
+<div class="subject-card">🧪 Chemistry</div>
+
+<div class="subject-card">⚛️ Physics</div>
+
+<div class="subject-card">🧬 Biology</div>
+
+<div class="subject-card">📖 English</div>
 
 </section>
 
 <footer>
-<p>Built by BTF TECH | 2026</p>
+    <p>© 2026 BTF LEARN | Learn • Play • Grow</p>
 </footer>
 
 <script src="script.js"></script>
