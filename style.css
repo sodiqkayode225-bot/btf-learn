@@ -144,3 +144,13 @@ footer{
 .card:hover{
     transform:translateY(-5px);
 }
+.subject-link{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
+.subject-link{
+text-decoration:none;
+color:inherit;
+display:block;
+    }
